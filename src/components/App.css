@@ -1,0 +1,107 @@
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-card {
+  width: calc(20% - 20px); /* Subtract 20px for the grid gap */
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.user-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Adjust the size of the user cards for smaller screens */
+@media (max-width: 768px) {
+  .user-card {
+    width: calc(50% - 20px); /* Two columns */
+  }
+}
+h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.header img {
+  height: 200px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-wrapper {
+  border: 1px solid #ccc;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+@media only screen and (max-width: 990px){
+.left-info {
+    margin-left: 0;
+    width: auto;
+}}
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: rgb(192, 192, 192);
+  border-image: initial;
+}
+legend {
+  display: block;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.left-info {
+  margin-left: 20px;
+  width: 100%;
+}
+div{
+  display: block;
+}
